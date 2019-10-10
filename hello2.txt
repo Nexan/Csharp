@@ -1,2 +1,2 @@
 Hello!!!!
-добавил 2 строку
+delete string 2
