@@ -2,3 +2,4 @@ Hello!!!!
 delete string 2
 append new string
 append new string 4
+append string 5
