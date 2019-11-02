@@ -1,4 +1,0 @@
-F:\Develop\C#\GeekBrains\Level1\CSharpLevel1Lesson1\CSharpLevel1Lesson1Task6\bin\Debug\CSharpLevel1Lesson1Task6.dll
-F:\Develop\C#\GeekBrains\Level1\CSharpLevel1Lesson1\CSharpLevel1Lesson1Task6\bin\Debug\CSharpLevel1Lesson1Task6.pdb
-F:\Develop\C#\GeekBrains\Level1\CSharpLevel1Lesson1\CSharpLevel1Lesson1Task6\obj\Debug\CSharpLevel1Lesson1Task6.dll
-F:\Develop\C#\GeekBrains\Level1\CSharpLevel1Lesson1\CSharpLevel1Lesson1Task6\obj\Debug\CSharpLevel1Lesson1Task6.pdb

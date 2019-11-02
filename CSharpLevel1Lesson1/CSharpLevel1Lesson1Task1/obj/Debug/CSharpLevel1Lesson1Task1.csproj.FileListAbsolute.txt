@@ -1,6 +1,0 @@
-F:\Develop\C#\GeekBrains\Level1\CSharpLevel1Lesson1\CSharpLevel1Lesson1Task1\bin\Debug\CSharpLevel1Lesson1Task1.exe.config
-F:\Develop\C#\GeekBrains\Level1\CSharpLevel1Lesson1\CSharpLevel1Lesson1Task1\bin\Debug\CSharpLevel1Lesson1Task1.exe
-F:\Develop\C#\GeekBrains\Level1\CSharpLevel1Lesson1\CSharpLevel1Lesson1Task1\bin\Debug\CSharpLevel1Lesson1Task1.pdb
-F:\Develop\C#\GeekBrains\Level1\CSharpLevel1Lesson1\CSharpLevel1Lesson1Task1\obj\Debug\CSharpLevel1Lesson1Task1.csprojResolveAssemblyReference.cache
-F:\Develop\C#\GeekBrains\Level1\CSharpLevel1Lesson1\CSharpLevel1Lesson1Task1\obj\Debug\CSharpLevel1Lesson1Task1.exe
-F:\Develop\C#\GeekBrains\Level1\CSharpLevel1Lesson1\CSharpLevel1Lesson1Task1\obj\Debug\CSharpLevel1Lesson1Task1.pdb
