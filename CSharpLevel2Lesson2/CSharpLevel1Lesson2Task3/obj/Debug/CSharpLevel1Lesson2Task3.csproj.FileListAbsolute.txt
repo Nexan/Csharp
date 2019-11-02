@@ -1,5 +1,0 @@
-G:\Develop\C#\GeekBrains\CSharpLevel2Lesson2\CSharpLevel1Lesson2Task3\bin\Debug\CSharpLevel2Lesson2Task3.exe.config
-G:\Develop\C#\GeekBrains\CSharpLevel2Lesson2\CSharpLevel1Lesson2Task3\bin\Debug\CSharpLevel2Lesson2Task3.exe
-G:\Develop\C#\GeekBrains\CSharpLevel2Lesson2\CSharpLevel1Lesson2Task3\bin\Debug\CSharpLevel2Lesson2Task3.pdb
-G:\Develop\C#\GeekBrains\CSharpLevel2Lesson2\CSharpLevel1Lesson2Task3\obj\Debug\CSharpLevel2Lesson2Task3.exe
-G:\Develop\C#\GeekBrains\CSharpLevel2Lesson2\CSharpLevel1Lesson2Task3\obj\Debug\CSharpLevel2Lesson2Task3.pdb
