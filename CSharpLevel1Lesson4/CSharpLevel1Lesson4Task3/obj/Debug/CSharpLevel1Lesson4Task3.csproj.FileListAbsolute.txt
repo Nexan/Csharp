@@ -1,0 +1,8 @@
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task3\bin\Debug\CSharpLevel1Lesson4Task3.exe.config
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task3\bin\Debug\CSharpLevel1Lesson4Task3.exe
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task3\bin\Debug\CSharpLevel1Lesson4Task3.pdb
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task3\bin\Debug\OneRangeArray.dll
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task3\bin\Debug\OneRangeArray.pdb
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task3\obj\Debug\CSharpLevel1Lesson4Task3.csprojResolveAssemblyReference.cache
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task3\obj\Debug\CSharpLevel1Lesson4Task3.exe
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task3\obj\Debug\CSharpLevel1Lesson4Task3.pdb

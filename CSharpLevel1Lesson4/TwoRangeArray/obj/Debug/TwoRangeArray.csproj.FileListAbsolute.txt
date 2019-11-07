@@ -1,0 +1,13 @@
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\TwoRangeArray\bin\Debug\TwoRangeArray.dll
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\TwoRangeArray\bin\Debug\TwoRangeArray.pdb
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\TwoRangeArray\obj\Debug\TwoRangeArray.dll
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\TwoRangeArray\obj\Debug\TwoRangeArray.pdb
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\TwoRangeArray\bin\Debug\TwoRangeArray.dll
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\TwoRangeArray\bin\Debug\TwoRangeArray.pdb
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\TwoRangeArray\obj\Debug\TwoRangeArray.dll
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\TwoRangeArray\obj\Debug\TwoRangeArray.pdb
+C:\Users\mikheev.k\Downloads\CSharpLevel1Lesson4\TwoRangeArray\bin\Debug\TwoRangeArray.dll
+C:\Users\mikheev.k\Downloads\CSharpLevel1Lesson4\TwoRangeArray\bin\Debug\TwoRangeArray.pdb
+C:\Users\mikheev.k\Downloads\CSharpLevel1Lesson4\TwoRangeArray\obj\Debug\TwoRangeArray.csprojAssemblyReference.cache
+C:\Users\mikheev.k\Downloads\CSharpLevel1Lesson4\TwoRangeArray\obj\Debug\TwoRangeArray.dll
+C:\Users\mikheev.k\Downloads\CSharpLevel1Lesson4\TwoRangeArray\obj\Debug\TwoRangeArray.pdb

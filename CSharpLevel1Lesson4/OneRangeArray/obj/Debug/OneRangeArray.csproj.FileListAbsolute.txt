@@ -1,0 +1,4 @@
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\OneRangeArray\bin\Debug\OneRangeArray.dll
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\OneRangeArray\bin\Debug\OneRangeArray.pdb
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\OneRangeArray\obj\Debug\OneRangeArray.dll
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\OneRangeArray\obj\Debug\OneRangeArray.pdb
