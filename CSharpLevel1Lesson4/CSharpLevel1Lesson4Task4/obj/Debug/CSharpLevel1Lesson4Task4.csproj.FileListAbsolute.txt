@@ -1,0 +1,17 @@
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\bin\Debug\CSharpLevel1Lesson4Task4.exe.config
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\bin\Debug\CSharpLevel1Lesson4Task4.exe
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\bin\Debug\CSharpLevel1Lesson4Task4.pdb
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\obj\Debug\CSharpLevel1Lesson4Task4.csprojResolveAssemblyReference.cache
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\obj\Debug\CSharpLevel1Lesson4Task4.exe
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\obj\Debug\CSharpLevel1Lesson4Task4.pdb
+C:\Users\mikheev.k\Downloads\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\bin\Debug\CSharpLevel1Lesson4Task4.exe.config
+C:\Users\mikheev.k\Downloads\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\bin\Debug\CSharpLevel1Lesson4Task4.exe
+C:\Users\mikheev.k\Downloads\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\bin\Debug\CSharpLevel1Lesson4Task4.pdb
+C:\Users\mikheev.k\Downloads\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\obj\Debug\CSharpLevel1Lesson4Task4.exe
+C:\Users\mikheev.k\Downloads\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\obj\Debug\CSharpLevel1Lesson4Task4.pdb
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\bin\Debug\CSharpLevel1Lesson4Task4.exe.config
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\bin\Debug\CSharpLevel1Lesson4Task4.exe
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\bin\Debug\CSharpLevel1Lesson4Task4.pdb
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\obj\Debug\CSharpLevel1Lesson4Task4.csprojResolveAssemblyReference.cache
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\obj\Debug\CSharpLevel1Lesson4Task4.exe
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson4\CSharpLevel1Lesson4Task4\obj\Debug\CSharpLevel1Lesson4Task4.pdb
