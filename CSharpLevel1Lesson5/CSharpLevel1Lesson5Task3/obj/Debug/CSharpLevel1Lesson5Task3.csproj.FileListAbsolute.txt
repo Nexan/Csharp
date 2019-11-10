@@ -1,0 +1,9 @@
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson5\CSharpLevel1Lesson5Task3\bin\Debug\CSharpLevel1Lesson5Task3.exe.config
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson5\CSharpLevel1Lesson5Task3\bin\Debug\CSharpLevel1Lesson5Task3.exe
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson5\CSharpLevel1Lesson5Task3\bin\Debug\CSharpLevel1Lesson5Task3.pdb
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson5\CSharpLevel1Lesson5Task3\obj\Debug\CSharpLevel1Lesson5Task3.exe
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson5\CSharpLevel1Lesson5Task3\obj\Debug\CSharpLevel1Lesson5Task3.pdb
+F:\Develop\C#\GeekBrains\CSharpLevel1Lesson5\CSharpLevel1Lesson5Task3\obj\Debug\CSharpLevel1Lesson5Task3.csprojResolveAssemblyReference.cache
+D:\Develop\Git\Csharp\CSharpLevel1Lesson5\CSharpLevel1Lesson5Task3\bin\Debug\CSharpLevel1Lesson5Task3.exe.config
+D:\Develop\Git\Csharp\CSharpLevel1Lesson5\CSharpLevel1Lesson5Task3\obj\Debug\CSharpLevel1Lesson5Task3.exe
+D:\Develop\Git\Csharp\CSharpLevel1Lesson5\CSharpLevel1Lesson5Task3\obj\Debug\CSharpLevel1Lesson5Task3.pdb
