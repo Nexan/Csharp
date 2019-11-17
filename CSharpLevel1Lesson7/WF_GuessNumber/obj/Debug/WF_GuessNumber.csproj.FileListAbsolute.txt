@@ -1,0 +1,9 @@
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson7\WF_GuessNumber\bin\Debug\WF_GuessNumber.exe.config
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson7\WF_GuessNumber\bin\Debug\WF_GuessNumber.exe
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson7\WF_GuessNumber\bin\Debug\WF_GuessNumber.pdb
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson7\WF_GuessNumber\obj\Debug\WF_GuessNumber.MainForm.resources
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson7\WF_GuessNumber\obj\Debug\WF_GuessNumber.Properties.Resources.resources
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson7\WF_GuessNumber\obj\Debug\WF_GuessNumber.csproj.GenerateResource.Cache
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson7\WF_GuessNumber\obj\Debug\WF_GuessNumber.exe
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson7\WF_GuessNumber\obj\Debug\WF_GuessNumber.pdb
+G:\Develop\C#\GeekBrains\CSharpLevel1Lesson7\WF_GuessNumber\obj\Debug\WF_GuessNumber.csprojResolveAssemblyReference.cache
