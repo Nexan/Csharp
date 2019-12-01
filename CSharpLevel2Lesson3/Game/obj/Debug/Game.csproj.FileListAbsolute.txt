@@ -1,0 +1,10 @@
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson2\Game\bin\Debug\Game.dll
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson2\Game\bin\Debug\Game.pdb
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson2\Game\obj\Debug\Game.dll
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson2\Game\obj\Debug\Game.pdb
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson2\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\Game\bin\Debug\Game.dll
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\Game\bin\Debug\Game.pdb
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\Game\obj\Debug\Game.dll
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\Game\obj\Debug\Game.pdb

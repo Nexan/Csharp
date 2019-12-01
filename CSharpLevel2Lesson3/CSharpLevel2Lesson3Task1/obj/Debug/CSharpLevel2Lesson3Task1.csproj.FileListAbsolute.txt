@@ -1,0 +1,10 @@
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\bin\Debug\CSharpLevel2Lesson3Task1.exe.config
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\bin\Debug\CSharpLevel2Lesson3Task1.exe
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\bin\Debug\CSharpLevel2Lesson3Task1.pdb
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\bin\Debug\Game.dll
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\bin\Debug\Game.pdb
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\CSharpLevel2Lesson3Task1.csprojResolveAssemblyReference.cache
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\CSharpLevel2Lesson3Task1.Properties.Resources.resources
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\CSharpLevel2Lesson3Task1.csproj.GenerateResource.Cache
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\CSharpLevel2Lesson3Task1.exe
+G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\CSharpLevel2Lesson3Task1.pdb
