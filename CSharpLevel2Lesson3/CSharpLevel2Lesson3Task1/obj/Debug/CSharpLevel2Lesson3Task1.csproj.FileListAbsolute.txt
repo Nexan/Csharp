@@ -8,3 +8,13 @@ G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\
 G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\CSharpLevel2Lesson3Task1.csproj.GenerateResource.Cache
 G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\CSharpLevel2Lesson3Task1.exe
 G:\Develop\C#\GeekBrains\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\CSharpLevel2Lesson3Task1.pdb
+D:\Develop\Git\Csharp\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\bin\Debug\CSharpLevel2Lesson3Task1.exe.config
+D:\Develop\Git\Csharp\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\CSharpLevel2Lesson3Task1.exe
+D:\Develop\Git\Csharp\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\CSharpLevel2Lesson3Task1.pdb
+D:\Develop\Git\Csharp\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\bin\Debug\CSharpLevel2Lesson3Task1.exe
+D:\Develop\Git\Csharp\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\bin\Debug\CSharpLevel2Lesson3Task1.pdb
+D:\Develop\Git\Csharp\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\bin\Debug\Game.dll
+D:\Develop\Git\Csharp\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\bin\Debug\Game.pdb
+D:\Develop\Git\Csharp\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\CSharpLevel2Lesson3Task1.csprojResolveAssemblyReference.cache
+D:\Develop\Git\Csharp\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\CSharpLevel2Lesson3Task1.Properties.Resources.resources
+D:\Develop\Git\Csharp\CSharpLevel2Lesson3\CSharpLevel2Lesson3Task1\obj\Debug\CSharpLevel2Lesson3Task1.csproj.GenerateResource.Cache

@@ -251,18 +251,17 @@ namespace Game
         private static Bullet _bullet;
         private static int asteroidCount;
         private static int score;
-        private static bool gameIsEnd;
 
         static Game()
         {
-            rnd     = new Random();
-            _objs   = new List<BaseObject>();
-            _asteroids  = new Asteroid[10];
+            rnd           = new Random();
+            _objs         = new List<BaseObject>();
+            _asteroids    = new Asteroid[10];
             asteroidCount = _asteroids.Length;
-            _ship = new Ship(new Point(10, 400), new Point(5, 5), new Size(50, 50));
-            gameIsEnd = false;
-            score = 0;
-    }
+            _ship         = new Ship(new Point(10, 400), new Point(5, 5), new Size(50, 50));
+            score         = 0;
+            _timer        = new Timer { Interval = 100 };
+        }
 
         public static void Init(Form form)
         {
@@ -288,9 +287,8 @@ namespace Game
 
             Load();
 
-            Timer timer = new Timer { Interval = 100 };
-            timer.Start();
-            timer.Tick += Timer_Tick;
+            _timer.Start();
+            _timer.Tick += Timer_Tick;
         }
 
         private static void Form_KeyDown(object sender, KeyEventArgs e)
@@ -307,14 +305,8 @@ namespace Game
 
         private static void Timer_Tick(object sender, EventArgs e)
         {
-            if (gameIsEnd)
-                return;
-
             Draw();
             Update();
-
-            if (_ship.Energy <= 0 || asteroidCount == 0)
-                gameIsEnd = true;
         }
 
         public static void Update()
