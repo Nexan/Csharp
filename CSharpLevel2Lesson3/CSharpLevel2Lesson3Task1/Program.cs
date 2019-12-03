@@ -28,7 +28,7 @@ namespace CSharpLevel2Lesson3Task1
             form.Show();
             Game.Draw();
             Application.Run(form);
-            Game.Finalize();
+            Game.Final();
         }
     }
 }

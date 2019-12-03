@@ -19,9 +19,9 @@ namespace SpaceBattleGame
             Draw();
 
             _ship.Logging(DateTime.Now, "Проигрыш. У корабля закончилась энергия.");
-            Buffer.Graphics.DrawString("Game over!!!"
-                                        , new Font(FontFamily.GenericSansSerif, 60, FontStyle.Underline)
-                                        , Brushes.White, 200, 100);
+            Buffer.Graphics.DrawString("Игра окончена!!!"
+                                        , new Font(FontFamily.GenericSansSerif, 50, FontStyle.Underline)
+                                        , Brushes.White, 130, 100);
             Buffer.Render();
         }
 
@@ -36,7 +36,7 @@ namespace SpaceBattleGame
             Draw();
 
             _ship.Logging(DateTime.Now, "Выигрыш. Были уничтожены все астероиды.");
-            Buffer.Graphics.DrawString("Win!!!"
+            Buffer.Graphics.DrawString("Победа!!!"
                                         , new Font(FontFamily.GenericSansSerif, 60, FontStyle.Underline)
                                         , Brushes.Yellow, 200, 100);
             Buffer.Render();

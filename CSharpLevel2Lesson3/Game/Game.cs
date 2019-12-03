@@ -45,7 +45,7 @@ namespace SpaceBattleGame
         }
 
         // Дейтсвия при закрытии программы.
-        public static void Finalize()
+        public static void Final()
         {
             _ship.Logging(DateTime.Now, "Игра завершена.");
             logFile.Close();
@@ -101,7 +101,6 @@ namespace SpaceBattleGame
             {
                 Asteroid aster = GenerateAsteroid();
                 _asteroids[i]  = aster;
-                _objs.Add(aster);
             }
         }
         #endregion

@@ -50,7 +50,6 @@ namespace SpaceBattleGame
                 {
                     System.Media.SystemSounds.Hand.Play();
                     score += _asteroids[i]._Size.Height;
-                    _objs.Remove(_asteroids[i]);
                     _asteroids[i] = null;
                     asteroidCount--;
                     _bullet = null;
@@ -94,14 +93,19 @@ namespace SpaceBattleGame
             _ship?.Draw();
             _aid?.Draw();
 
+            ShowLabels();
+
+            Buffer.Render();
+        }
+
+        private static void ShowLabels()
+        {
             if (_ship != null)
             {
                 Buffer.Graphics.DrawString("Энергия: " + _ship.Energy, SystemFonts.DefaultFont, Brushes.Green, 0, 0);
                 Buffer.Graphics.DrawString("Осталось астероидов: " + asteroidCount, SystemFonts.DefaultFont, Brushes.White, 90, 0);
                 Buffer.Graphics.DrawString("Очки: " + score, SystemFonts.DefaultFont, Brushes.Red, 245, 0);
             }
-
-            Buffer.Render();
         }
     }
 }
