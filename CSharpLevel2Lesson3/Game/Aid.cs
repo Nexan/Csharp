@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using SpaceBattleGame;
 
 namespace Shapes
@@ -21,6 +22,7 @@ namespace Shapes
         public override void Update()
         {
             Pos.X = Pos.X - Dir.X;
+            Pos.Y += (int)(Math.Sin(Pos.X) * Game.rnd.Next(1, 20));
         }
         #endregion
     }
