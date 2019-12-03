@@ -26,12 +26,26 @@ namespace SpaceBattleGame
                 obj.Update();
 
             _bullet?.Update();
+            if (_ship.Collision(_aid))
+            {
+                _timerAid.Interval = rnd.Next(30000, 60000);
+                _ship.Energy += Math.Min(10, 100 - _ship.Energy);
+                _aid = null;
+            }
+            _aid?.Update();
+            if (_aid != null && _aid._Pos.X + _aid._Size.Width <= 0)
+            {
+                _timerAid.Interval = rnd.Next(30000, 60000);
+                _aid = null;
+            }
+
             for (var i = 0; i < _asteroids.Length; i++)
             {
                 if (_asteroids[i] == null)
                     continue;
                 _asteroids[i].Update();
 
+                // проверяем попадание пули в астероид
                 if (_bullet != null && _bullet.Collision(_asteroids[i]))
                 {
                     System.Media.SystemSounds.Hand.Play();
@@ -42,13 +56,18 @@ namespace SpaceBattleGame
                     _bullet = null;
                     if (asteroidCount == 0)
                         _ship?.Win();
+                    _ship.Logging(DateTime.Now, $"Попадание пулей в астероид. Осталось астероидов: {asteroidCount}. Количество очков: {score}");
                     continue;
                 }
 
+                // проверяем столкновение корабля с астероидом
                 if (!_ship.Collision(_asteroids[i]))
                     continue;
+                
                 _ship?.EnergyLow(rnd.Next(1, 10));
                 System.Media.SystemSounds.Asterisk.Play();
+                _ship.Logging(DateTime.Now, $"Столкновение с астероидом. Осталось энергии: {_ship.Energy}");
+
                 if (_ship.Energy <= 0)
                     _ship?.Die();
             }
@@ -73,6 +92,7 @@ namespace SpaceBattleGame
 
             _bullet?.Draw();
             _ship?.Draw();
+            _aid?.Draw();
 
             if (_ship != null)
             {

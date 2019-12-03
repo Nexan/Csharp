@@ -36,6 +36,9 @@ namespace Shapes
         /// <returns></returns>
         public bool Collision(BaseObject _object)
         {
+            if (_object == null)
+                return false;
+
             int thisX1 = _Pos.X;
             int thisX2 = _Pos.X + _Size.Width;
             int objectX1 = _object._Pos.X;

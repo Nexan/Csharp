@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using SpaceBattleGame;
 
 namespace Shapes
@@ -9,9 +10,15 @@ namespace Shapes
     class Ship : BaseObject
     {
         private int _energy = 100;
-        public int Energy => _energy;
+        public int Energy
+        {
+            get { return _energy; }
+            set { _energy = value; }
+        }
+           
         public static event Message MessageDie;
         public static event Message MessageWin;
+        public static event Log LogEvent;
 
         public Ship(Point pos, Point dir, Size size) : base(pos, dir, size)
         {
@@ -31,6 +38,11 @@ namespace Shapes
         public void Win()
         {
             MessageWin?.Invoke();
+        }
+
+        public void Logging(DateTime date, string message)
+        {
+            LogEvent?.Invoke(date, message);
         }
         #endregion
 

@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using Shapes;
 
 namespace SpaceBattleGame
@@ -22,6 +23,14 @@ namespace SpaceBattleGame
         {
             int r = rnd.Next(5, 50);
             return new Bullet(new Point(rnd.Next(-1000, -10), rnd.Next(0, Game.Height)), new Point(-r / 5, r), new Size(4, 1));
+        }
+
+        private static void CheckCreateAid(object sender, EventArgs e)
+        {
+            _timerAid.Interval = 1000;
+
+            if (_ship.Energy > 0 && _ship.Energy < 100 && _aid == null)
+                _aid = new Aid(new Point(1000, rnd.Next(20, Game.Height - 20)), new Point(15, 0), new Size(42, 36));
         }
         #endregion
     }

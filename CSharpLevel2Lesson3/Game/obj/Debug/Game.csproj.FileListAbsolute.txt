@@ -13,3 +13,8 @@ D:\Develop\Git\Csharp\CSharpLevel2Lesson3\Game\bin\Debug\Game.pdb
 D:\Develop\Git\Csharp\CSharpLevel2Lesson3\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
 D:\Develop\Git\Csharp\CSharpLevel2Lesson3\Game\obj\Debug\Game.dll
 D:\Develop\Git\Csharp\CSharpLevel2Lesson3\Game\obj\Debug\Game.pdb
+C:\Users\mikheev.k\Downloads\CSharpLevel2Lesson3\Game\bin\Debug\Game.dll
+C:\Users\mikheev.k\Downloads\CSharpLevel2Lesson3\Game\bin\Debug\Game.pdb
+C:\Users\mikheev.k\Downloads\CSharpLevel2Lesson3\Game\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\mikheev.k\Downloads\CSharpLevel2Lesson3\Game\obj\Debug\Game.dll
+C:\Users\mikheev.k\Downloads\CSharpLevel2Lesson3\Game\obj\Debug\Game.pdb

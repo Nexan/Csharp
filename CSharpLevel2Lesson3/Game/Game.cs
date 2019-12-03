@@ -1,14 +1,14 @@
-﻿/* Михеев Константин
- */
-using System;
+﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Collections.Generic;
 using Shapes;
+using System.IO;
 
 namespace SpaceBattleGame
 {
     public delegate void Message();
+    public delegate void Log(DateTime date, string message);
 
     /// <summary>
     /// Основной класс, реализующий создание и движение космических объектов.
@@ -16,6 +16,7 @@ namespace SpaceBattleGame
     public static partial class Game
     {
         private static Timer _timer = new Timer();
+        private static Timer _timerAid = new Timer();
         private static BufferedGraphicsContext _context;
         public static BufferedGraphics Buffer;
         public static int Width { get; set; }
@@ -25,8 +26,10 @@ namespace SpaceBattleGame
         private static Random rnd;
         private static Ship _ship;
         private static Bullet _bullet;
+        private static Aid _aid;
         private static int asteroidCount;
         private static int score;
+        private static StreamWriter logFile;
 
         static Game()
         {
@@ -34,9 +37,18 @@ namespace SpaceBattleGame
             _objs         = new List<BaseObject>();
             _asteroids    = new Asteroid[10];
             asteroidCount = _asteroids.Length;
-            _ship         = new Ship(new Point(10, 400), new Point(5, 5), new Size(50, 50));
+            _ship         = new Ship(new Point(10, 400), new Point(5, 5), new Size(30, 26));
             score         = 0;
             _timer        = new Timer { Interval = 100 };
+            _timerAid     = new Timer { Interval = 1000 };
+            logFile = new StreamWriter("_log.txt", true);
+        }
+
+        // Дейтсвия при закрытии программы.
+        public static void Finalize()
+        {
+            _ship.Logging(DateTime.Now, "Игра завершена.");
+            logFile.Close();
         }
 
         #region Методы инициализации игры
@@ -62,11 +74,17 @@ namespace SpaceBattleGame
             form.KeyDown += Form_KeyDown;
             Ship.MessageDie += Finish;
             Ship.MessageWin += Win;
+            Ship.LogEvent   += LogToFile;
+            Ship.LogEvent   += LogToConsole;
 
             Load();
 
             _timer.Start();
             _timer.Tick += Timer_Tick;
+            _timerAid.Start();
+            _timerAid.Tick += CheckCreateAid;
+
+            _ship.Logging(DateTime.Now, "Игра начата.");
         }
 
         /// <summary>
