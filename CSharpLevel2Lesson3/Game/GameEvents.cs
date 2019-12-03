@@ -14,7 +14,7 @@ namespace SpaceBattleGame
         {
             _timer.Stop();
             Draw();
-            Buffer.Graphics.DrawString("Game over!!!"
+            Buffer.Graphics.DrawString("Игра окончена!!!"
                                         , new Font(FontFamily.GenericSansSerif, 60, FontStyle.Underline)
                                         , Brushes.White, 200, 100);
             Buffer.Render();
@@ -27,7 +27,7 @@ namespace SpaceBattleGame
         {
             _timer.Stop();
             Draw();
-            Buffer.Graphics.DrawString("Win!!!"
+            Buffer.Graphics.DrawString("Победа!!!"
                                         , new Font(FontFamily.GenericSansSerif, 60, FontStyle.Underline)
                                         , Brushes.Yellow, 200, 100);
             Buffer.Render();

@@ -96,9 +96,9 @@ namespace SpaceBattleGame
 
             if (_ship != null)
             {
-                Buffer.Graphics.DrawString("Energy: " + _ship.Energy, SystemFonts.DefaultFont, Brushes.Green, 0, 0);
-                Buffer.Graphics.DrawString("Left asteroids: " + asteroidCount, SystemFonts.DefaultFont, Brushes.White, 100, 0);
-                Buffer.Graphics.DrawString("Score: " + score, SystemFonts.DefaultFont, Brushes.Red, 250, 0);
+                Buffer.Graphics.DrawString("Энергия: " + _ship.Energy, SystemFonts.DefaultFont, Brushes.Green, 0, 0);
+                Buffer.Graphics.DrawString("Осталось астероидов: " + asteroidCount, SystemFonts.DefaultFont, Brushes.White, 90, 0);
+                Buffer.Graphics.DrawString("Очки: " + score, SystemFonts.DefaultFont, Brushes.Red, 245, 0);
             }
 
             Buffer.Render();
