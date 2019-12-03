@@ -18,6 +18,80 @@ namespace SpaceBattleGame
         }
 
         /// <summary>
+        /// Обновление позиции аптечки.
+        /// </summary>
+        private static void AidUpdate()
+        {
+            // проверяем столкновение корабля с аптечкой
+            if (_ship.Collision(_aid))
+            {
+                _timerAid.Interval = rnd.Next(30000, 60000);
+                _ship.Energy += Math.Min(10, 100 - _ship.Energy);
+                _aid = null;
+            }
+
+            _aid?.Update();
+
+            // аптечка вылетела за экран
+            if (_aid != null && _aid._Pos.X + _aid._Size.Width <= 0)
+            {
+                _timerAid.Interval = rnd.Next(30000, 60000);
+                _aid = null;
+            }
+        }
+
+        /// <summary>
+        /// Обновление позиции пули.
+        /// </summary>
+        /// <param name="asteroid"></param>
+        /// <returns></returns>
+        private static bool BulletUpdate(ref Asteroid asteroid)
+        {
+            // проверяем попадание пули в астероид
+            if (_bullet != null && _bullet.Collision(asteroid))
+            {
+                System.Media.SystemSounds.Hand.Play();
+
+                _bullet = null;
+
+                score += asteroid._Size.Height;
+                asteroid = null;
+                asteroidCount--;
+                if (asteroidCount == 0)
+                    _ship?.Win();
+
+                _ship.Logging(DateTime.Now, $"Попадание пулей в астероид. Осталось астероидов: {asteroidCount}. Количество очков: {score}");
+
+                return true;
+            }
+
+            return false;
+        }
+
+        /// <summary>
+        /// Проверяем столкновение корабля с астероидом
+        /// </summary>
+        /// <param name="asteroid"></param>
+        /// <returns></returns>
+        private static bool ShipCollision(ref Asteroid asteroid)
+        {
+            if (_ship.Collision(asteroid))
+            {
+                System.Media.SystemSounds.Asterisk.Play();
+
+                _ship?.EnergyLow(rnd.Next(1, 5));
+                _ship.Logging(DateTime.Now, $"Столкновение с астероидом. Осталось энергии: {_ship.Energy}");
+
+                if (_ship.Energy <= 0)
+                    _ship?.Die();
+
+                return true;
+            }
+
+            return false;
+        }
+
+        /// <summary>
         /// Обновляет положение объектов.
         /// </summary>
         public static void Update()
@@ -26,18 +100,7 @@ namespace SpaceBattleGame
                 obj.Update();
 
             _bullet?.Update();
-            if (_ship.Collision(_aid))
-            {
-                _timerAid.Interval = rnd.Next(30000, 60000);
-                _ship.Energy += Math.Min(10, 100 - _ship.Energy);
-                _aid = null;
-            }
-            _aid?.Update();
-            if (_aid != null && _aid._Pos.X + _aid._Size.Width <= 0)
-            {
-                _timerAid.Interval = rnd.Next(30000, 60000);
-                _aid = null;
-            }
+            AidUpdate();
 
             for (var i = 0; i < _asteroids.Length; i++)
             {
@@ -45,30 +108,10 @@ namespace SpaceBattleGame
                     continue;
                 _asteroids[i].Update();
 
-                // проверяем попадание пули в астероид
-                if (_bullet != null && _bullet.Collision(_asteroids[i]))
-                {
-                    System.Media.SystemSounds.Hand.Play();
-                    score += _asteroids[i]._Size.Height;
-                    _asteroids[i] = null;
-                    asteroidCount--;
-                    _bullet = null;
-                    if (asteroidCount == 0)
-                        _ship?.Win();
-                    _ship.Logging(DateTime.Now, $"Попадание пулей в астероид. Осталось астероидов: {asteroidCount}. Количество очков: {score}");
+                if (BulletUpdate(ref _asteroids[i]))
                     continue;
-                }
 
-                // проверяем столкновение корабля с астероидом
-                if (!_ship.Collision(_asteroids[i]))
-                    continue;
-                
-                _ship?.EnergyLow(rnd.Next(1, 10));
-                System.Media.SystemSounds.Asterisk.Play();
-                _ship.Logging(DateTime.Now, $"Столкновение с астероидом. Осталось энергии: {_ship.Energy}");
-
-                if (_ship.Energy <= 0)
-                    _ship?.Die();
+                ShipCollision(ref _asteroids[i]);
             }
         }
 
@@ -104,7 +147,7 @@ namespace SpaceBattleGame
             {
                 Buffer.Graphics.DrawString("Энергия: " + _ship.Energy, SystemFonts.DefaultFont, Brushes.Green, 0, 0);
                 Buffer.Graphics.DrawString("Осталось астероидов: " + asteroidCount, SystemFonts.DefaultFont, Brushes.White, 90, 0);
-                Buffer.Graphics.DrawString("Очки: " + score, SystemFonts.DefaultFont, Brushes.Red, 245, 0);
+                Buffer.Graphics.DrawString("Очки: " + score, SystemFonts.DefaultFont, Brushes.Yellow, 245, 0);
             }
         }
     }
